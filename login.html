@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - ImChampion</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header>
+        <div class="container">
+
+            <nav class="navbar">
+
+                <!-- Logo -->
+                <div class="logo">
+                    <h2>ImChampion</h2>
+                </div>
+
+                <!-- Hamburger Menu -->
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <!-- Navigation Links -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="../html/index.html">Home</a></li>
+                    <li><a href="../html/index.html#course">Courses</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Enquiry</a></li>
+                </ul>
+
+                <!-- Right Side -->
+                <div class="nav-buttons">
+
+                    <!-- Theme Toggle -->
+                    <button id="theme-toggle">🌙</button>
+
+                    <!-- Login -->
+                    <a href="../html/login.html" class="login-btn active">Login</a>
+
+                    <!-- CTA -->
+                    <a href="../html/signup.html" class="cta-btn">Get Started</a>
+
+                </div>
+
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- ================= MAIN ================= -->
+    <main>
+
+        <!-- ================= LOGIN SECTION ================= -->
+        <section class="login">
+            <div class="container">
+
+                <div class="login-grid">
+
+                    <!-- LEFT SIDE (CONTENT) -->
+                    <div class="login-content">
+
+                        <!-- Tagline -->
+                        <span class="login-tag">
+                            🚀 Welcome Back to Learning
+                        </span>
+
+                        <!-- Main Heading -->
+                        <h1 class="login-title">
+                            Continue Your Journey to Become a Job-Ready Developer
+                        </h1>
+
+                        <!-- Description -->
+                        <p class="login-description">
+                            Access your personalized learning dashboard, track your progress,
+                            and continue building real-world projects with expert guidance.
+                        </p>
+
+                        <!-- Features -->
+                        <div class="login-features">
+                            <div class="feature-item">
+                                <span class="feature-icon">📚</span>
+                                <span>Resume Learning</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon">🎯</span>
+                                <span>Track Progress</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon">👨‍🏫</span>
+                                <span>Get Mentorship</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- RIGHT SIDE (FORM) -->
+                    <div class="login-form-container">
+
+                        <div class="login-box">
+
+                            <!-- Title -->
+                            <h2>Welcome Back 👋</h2>
+                            <p>Please login to your account</p>
+
+                            <!-- FORM -->
+                            <form class="login-form">
+
+                                <!-- Email -->
+                                <div class="input-group">
+                                    <label for="email">Email Address</label>
+                                    <div class="input-wrapper">
+                                        <span class="input-icon">📧</span>
+                                        <input id="email" type="email" placeholder="your.email@example.com" required>
+                                    </div>
+                                </div>
+
+                                <!-- Password -->
+                                <div class="input-group">
+                                    <label for="password">Password</label>
+                                    <div class="input-wrapper">
+                                        <span class="input-icon">🔒</span>
+                                        <input id="password" type="password" placeholder="••••••••" required>
+                                        <button type="button" class="password-toggle" data-toggle="password">
+                                            <span class="eye-icon">👁️</span>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <!-- Options -->
+                                <div class="login-options">
+                                    <label class="checkbox-label">
+                                        <input type="checkbox">
+                                        <span>Remember me</span>
+                                    </label>
+                                    <a href="#" class="forgot-link">Forgot Password?</a>
+                                </div>
+
+                                <!-- Button -->
+                                <button type="submit" class="login-btn-main">
+                                    <span>Login</span>
+                                    <span class="btn-arrow">→</span>
+                                </button>
+
+                            </form>
+
+                            <!-- Signup -->
+                            <p class="signup-text">
+                                Don't have an account? <a href="../html/signup.html">Sign Up</a>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <!-- Column 1 (Brand) -->
+                <div class="footer-col">
+                    <h2 class="footer-logo">ImChampion</h2>
+                    <p>
+                        Learn industry-ready skills and become a job-ready developer with our expert-led courses and mentorship programs.
+                    </p>
+
+                    <!-- Newsletter Signup -->
+                    <div class="newsletter">
+                        <h4>Stay Updated</h4>
+                        <p>Get the latest courses and tips delivered to your inbox.</p>
+                        <div class="newsletter-form">
+                            <input type="email" placeholder="Enter your email" class="newsletter-input">
+                            <button class="newsletter-btn">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Column 2 (Quick Links) -->
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="../html/index.html">Home</a></li>
+                        <li><a href="../html/index.html#course">Courses</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3 (Courses) -->
+                <div class="footer-col">
+                    <h3>Popular Courses</h3>
+                    <ul>
+                        <li><a href="#">Frontend Development</a></li>
+                        <li><a href="#">Backend Development</a></li>
+                        <li><a href="#">Database Management</a></li>
+                        <li><a href="#">Full Stack Development</a></li>
+                        <li><a href="#">DevOps & Cloud</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4 (Contact / Social) -->
+                <div class="footer-col">
+                    <h3>Get In Touch</h3>
+                    <div class="contact-info">
+                        <p><span class="contact-icon">📧</span> support@imchampion.com</p>
+                        <p><span class="contact-icon">📞</span> +91 86748 44320</p>
+                        <p><span class="contact-icon">📍</span> Mumbai, India</p>
+                    </div>
+
+                    <!-- Social Links -->
+                    <div class="footer-social">
+                        <a href="#" title="Website">🌐</a>
+                        <a href="#" title="LinkedIn">💼</a>
+                        <a href="#" title="Twitter">🐦</a>
+                        <a href="#" title="Instagram">📸</a>
+                        <a href="#" title="YouTube">📺</a>
+                    </div>
+
+                    <!-- App Download -->
+                    <div class="app-download">
+                        <p>Download Our App</p>
+                        <div class="app-buttons">
+                            <a href="#" class="app-btn">📱 App Store</a>
+                            <a href="#" class="app-btn">🤖 Play Store</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Stats Bar -->
+            <div class="footer-stats">
+                <div class="stat-item">
+                    <h4>10K+</h4>
+                    <p>Students</p>
+                </div>
+                <div class="stat-item">
+                    <h4>50+</h4>
+                    <p>Courses</p>
+                </div>
+                <div class="stat-item">
+                    <h4>100+</h4>
+                    <p>Projects</p>
+                </div>
+                <div class="stat-item">
+                    <h4>95%</h4>
+                    <p>Success Rate</p>
+                </div>
+            </div>
+
+            <!-- Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>© 2026 ImChampion. All rights reserved.</p>
+                    <div class="footer-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- ================= JS ================= -->
+    <script src="../javascript/login.js"></script>
+</body>
+</html>
